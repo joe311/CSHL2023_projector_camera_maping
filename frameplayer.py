@@ -42,10 +42,8 @@ class Frameplayer:
 
 if __name__ == '__main__':
     from time import sleep
+
     fp = Frameplayer()
     for i in range(20):
-        fp.update_dot_pos([10, i*10 % 100])
+        fp.update_dot_pos([10, i * 10 % 100])
         sleep(.1)
-
-
-
